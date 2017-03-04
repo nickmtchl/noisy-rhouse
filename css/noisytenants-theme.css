@@ -10,12 +10,13 @@
 *
 */
 
-
 body {
 	background: black;
 	color: #ffffff;
 	font-family: Helvetica, sans-serif;
 	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
 }
 body.noScroll { /* ...or body.dialogShowing */
   	overflow: hidden;
@@ -33,11 +34,6 @@ body.noScroll { /* ...or body.dialogShowing */
 }
 .logo_text {
 	padding-left: 10px;
-	color: #ffffff;
-	font-family: Helvetica, sans-serif;
-	font-size: 16px;
-	font-weight: bold;
-	text-transform: uppercase;
 }
 .site-header {
 	background: black;
@@ -50,11 +46,6 @@ body.noScroll { /* ...or body.dialogShowing */
 */
 .menu {
 	float: right;
-	color: #ffffff;
-	font-family: Helvetica, sans-serif;
-	font-size: 16px;
-	font-weight: bold;
-	text-transform: uppercase;
 }
 .menu-btn {
 	font-size: 2em;
@@ -172,11 +163,31 @@ body.noScroll { /* ...or body.dialogShowing */
 */
 .hero-bg {
 	background-color: white;
-	background-size: cover;
-	-webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
 	height: 100vh;
+}
+
+/*
+New ish - replace nt-slider with all this
+*/
+.topfold{
+	text-align: center;
+	color: black;
+}
+.burger{
+	width: 30%;
+}
+.title-text{
+	font-size: 5em;
+	text-transform: none;
+	font-weight: normal;
+}
+.date-text{
+	font-size: 2.5em;
+	text-transform: none;
+	font-weight: normal;
+}
+.firstline{
+	padding-top: 15px;
 }
 
 /* 
@@ -413,10 +424,6 @@ body.noScroll { /* ...or body.dialogShowing */
 	}
 	.footer-menu {
 		margin-bottom: 10px;
-		color: #ffffff;
-	font-family: Helvetica, sans-serif;
-	font-weight: bold;
-	text-transform: uppercase;
 	}
 	.footer-paragraph {
 		font-size: 14px;
@@ -553,33 +560,9 @@ body.noScroll { /* ...or body.dialogShowing */
 
 
 
-
 /*
-All Others
+Other
 */
-.top-fold{
-	text-align: center;	
-}
-
-.burger{
-	width: 20%;
-}
-
-.sm{
-	width: 30px;
-}
-.title-text{
-	  font-family: 'cherie_bombregular';
-	  font-size: 6em;
-	  color: black;
-}
-.date-text{
+.cherie{
 	font-family: 'cherie_bombregular';
-	  font-size: 2.8em;
-	  color: black;
-}
-.reg-text{
-		font-weight: bold;
-		text-transform: uppercase;
-		color: black;
 }
